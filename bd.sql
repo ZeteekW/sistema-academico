@@ -3,7 +3,7 @@ USE sistema_academico;
 
 CREATE TABLE curso (
     id      INT AUTO_INCREMENT PRIMARY KEY,
-    nome    VARCHAR(100),
+    nome    VARCHAR(101),
     campus  VARCHAR(100),
     periodo VARCHAR(20)
 );
